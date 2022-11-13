@@ -1,0 +1,22 @@
+NECESSARY CALCULATION FOR SPEARMAN'S RANK CORRELATION COEFFICIENT
+-----------------------------------------------------------------
+
+Set_1 	 	 Rank_set_1 	 	 Set_2 	 	 Rank_set_2 	 	 difference_in_rank 	 	 square_difference
+-----------------------------------------------------------------------------------------------------------------------------
+    8 	 	          1 	 	     7 	 	          2 	 	                 -1 	 	 	          1
+
+    6 	 	          3 	 	     8 	 	          1 	 	                  2 	 	 	          4
+
+    3 	 	          6 	 	     5 	 	          4 	 	                  2 	 	 	          4
+
+    2 	 	          7 	 	     3 	 	          6 	 	                  1 	 	 	          1
+
+    5 	 	          4 	 	     6 	 	          3 	 	                  1 	 	 	          1
+
+    4 	 	          5 	 	     2 	 	          7 	 	                 -2 	 	 	          4
+
+    1 	 	          8 	 	     1 	 	          8 	 	                  0 	 	 	          0
+
+    7 	 	          2 	 	     4 	 	          5 	 	                 -3 	 	 	          9
+
+The Spearman's Rank Correlation Coefficient is 0.714286

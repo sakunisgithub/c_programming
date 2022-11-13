@@ -1,0 +1,33 @@
+The observations are 
+42	37	46	48	63	
+64	63	53	57	55	
+72	55	54	33	48	
+56	34	77	65	58	
+47	59	44	35	75	
+40	45	56	55	65	
+48	56	52	53	34	
+42	58	65	43	54	
+46	57	62	58	53	
+43	47	54	60	48	
+The sorted observations are 
+33 	34 	34 	35 	37 	
+40 	42 	42 	43 	43 	
+44 	45 	46 	46 	47 	
+47 	48 	48 	48 	48 	
+52 	53 	53 	53 	54 	
+54 	54 	55 	55 	55 	
+56 	56 	56 	57 	57 	
+58 	58 	58 	59 	60 	
+62 	63 	63 	64 	65 	
+65 	65 	72 	75 	77 	
+
+The minimum observation is 33
+The maximum observation is 77
+Class Intervals 		 Frequency 		 Cumulative Frequency(<) 		 Cumulative Frequency(>)
+  30-  40 					    5 						    5 							  101 
+  40-  50 					   15 						   20 							   96 
+  50-  60 					   19 						   39 							   81 
+  60-  70 					    8 						   47 							   62 
+  70-  80 					    3 						   50 							   54 
+
+Total Frequency = 50
