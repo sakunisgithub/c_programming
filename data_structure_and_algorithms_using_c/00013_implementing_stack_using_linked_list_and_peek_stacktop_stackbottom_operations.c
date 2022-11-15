@@ -3,8 +3,8 @@
 
 struct node
 {
-		int data;
-		struct node * pointer;
+	int data;
+	struct node * pointer;
 };
 
 int peek(struct node *, int);
