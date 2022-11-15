@@ -7,7 +7,6 @@ struct node
 	struct node * pointer; // this is the pointer to the next element in the linked list
 };
 
-struct node * top = NULL;
 
 struct node * push(struct node *, int);
 
@@ -21,6 +20,7 @@ int isEmpty(struct node *);
 
 int main()
 {
+	struct node * top = NULL;
 	printf("The initial linked list is empty\n");
 
 	int number, code;
