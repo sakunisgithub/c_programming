@@ -13,7 +13,7 @@ void swap(float*, float*);
 int main()
 {
     FILE *pointer1 = NULL;
-    pointer1 = fopen("82_21_124_data_set.dat", "r");
+    pointer1 = fopen("00082_21_124_data_set.dat", "r");
 
     char a;
     int c = 0;
@@ -29,7 +29,7 @@ int main()
     fclose(pointer1);
 
     FILE *pointer2 = NULL;
-    pointer2 = fopen("82_21_124_data_set_copy.dat", "r");
+    pointer2 = fopen("00082_21_124_data_set_copy.dat", "r");
 
     int n;
     printf("\nEnter the number of numbers you want to call = ");
@@ -49,7 +49,7 @@ int main()
     scanf("%d", &length);
 
     FILE *pointer3 = NULL;
-    pointer3 = fopen("85_21_124_output.dat", "w");
+    pointer3 = fopen("00085_21_124_output.dat", "w");
 
     fprintf(pointer3, "The recorded sample is ::: \n");
     for (int i = 0; i < n; i++)

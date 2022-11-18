@@ -30,11 +30,11 @@ int main()
     }
     
     FILE *pointer = NULL;
-    pointer = fopen("82_21_124_Q1_output.dat", "w");
+    pointer = fopen("00082_21_124_Q1_output.dat", "w");
     FILE *pointer1 = NULL;
-    pointer1 = fopen("82_21_124_data_set.dat", "w"); // we are creating this extra data set file so that for future purposes we can easily call data from this set
+    pointer1 = fopen("00082_21_124_data_set.dat", "w"); // we are creating this extra data set file so that for future purposes we can easily call data from this set
     FILE *pointer2 = NULL;
-    pointer2 = fopen("82_21_124_data_set_copy.dat", "w"); // we are creating yet another extra data set file so that for future purposes we can easily call data from this set
+    pointer2 = fopen("00082_21_124_data_set_copy.dat", "w"); // we are creating yet another extra data set file so that for future purposes we can easily call data from this set
     // but why another data set?? because, from one data set we shall count the number of numbers using fgetchar function and from the other data set file we shall scan the numbers using fscanf function. 
     // I previously created only one data file and used it to count and scan the numbers. It did count the number of numbers correctly, but later it failed to scan the numbers after fgetchar was once applied. I don't know what exactly is the problem.
     fprintf(pointer, "Sample Size = %d\n", n);

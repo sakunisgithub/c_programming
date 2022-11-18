@@ -27,7 +27,7 @@ int main()
     }
 
     FILE *pointer = NULL;
-    pointer = fopen("80_output.dat", "w");
+    pointer = fopen("00080_output.dat", "w");
     fprintf(pointer, "Sample Size = %d\n", n);
     fprintf(pointer, "Parameter Lambda = %f\n", lmd);
     fprintf(pointer, "The random sample generated is::\n");

@@ -7,7 +7,7 @@ int main(){
     float obs, freq;
 
     FILE *pointer = NULL;
-    pointer = fopen("52_storing_data.dat", "w");
+    pointer = fopen("00052_storing_data.dat", "w");
 
     printf("Enter total number of observations\n");
     scanf("%d", &n);

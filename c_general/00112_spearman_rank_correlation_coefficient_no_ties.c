@@ -31,7 +31,7 @@ int main()
 
 
     /* FILE* pointer2 = NULL;
-    pointer2 = fopen("112_source.dat", "r");
+    pointer2 = fopen("00112_source.dat", "r");
     for (int i = 0; i < n; i++)
     {
         fscanf(pointer2,"%d", &observation_set_1[i]);

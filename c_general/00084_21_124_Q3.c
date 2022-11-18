@@ -9,7 +9,7 @@ void swap(float*, float*);
 int main()
 {
     FILE *pointer1 = NULL;
-    pointer1 = fopen("82_21_124_data_set.dat", "r");
+    pointer1 = fopen("00082_21_124_data_set.dat", "r");
     
     char a;
     int c = 0;
@@ -30,7 +30,7 @@ int main()
     scanf("%d", &n);
 
     FILE *pointer2 = NULL;
-    pointer2 = fopen("82_21_124_data_set_copy.dat", "r");
+    pointer2 = fopen("00082_21_124_data_set_copy.dat", "r");
 
     float value[n];
     for (int i = 0; i < n; i++)
@@ -41,7 +41,7 @@ int main()
     fclose(pointer2);
 
     FILE *pointer3 = NULL;
-    pointer3 = fopen("84_21_124_output.dat", "w");
+    pointer3 = fopen("00084_21_124_output.dat", "w");
 
     fprintf(pointer3, "The recorded sample is ::: \n");
     for (int i = 0; i < n; i++)

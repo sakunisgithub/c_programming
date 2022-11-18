@@ -14,7 +14,7 @@ int main()
 {
     // calling observations from the source file
     FILE* pointer1 = NULL;
-    pointer1 = fopen("69_source_file.dat", "r");
+    pointer1 = fopen("00069_source_file.dat", "r");
     // pointer1 = fopen("69_source_file.dat", "w");
 
     int n;
@@ -55,7 +55,7 @@ int main()
     // pointer1 = fopen("69_source_file.dat", "r");
 
     FILE* pointer2 = NULL;
-    pointer2 = fopen("69_output_file.dat", "w");
+    pointer2 = fopen("00069_output_file.dat", "w");
 
     // printing the observations in the output file
     fprintf(pointer2, "The observations are \n");

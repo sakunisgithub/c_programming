@@ -28,7 +28,7 @@ int main()
     }
     
     FILE *pointer = NULL;
-    pointer = fopen("79_output.dat", "w");
+    pointer = fopen("00079_output.dat", "w");
     fprintf(pointer, "Sample Size = %d\n", n);
     fprintf(pointer, "Parameter a = %f\n", a);
     fprintf(pointer, "Parameter b = %f\n", b);

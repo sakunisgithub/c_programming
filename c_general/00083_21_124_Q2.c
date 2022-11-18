@@ -9,7 +9,7 @@ void swap(float*, float*);
 int main()
 {
     FILE *pointer1 = NULL;
-    pointer1 = fopen("82_21_124_data_set.dat", "r");
+    pointer1 = fopen("00082_21_124_data_set.dat", "r");
     
     char a;
     int c = 0;
@@ -26,7 +26,7 @@ int main()
     fclose(pointer1);
 
     FILE *pointer2 = NULL;
-    pointer2 = fopen("82_21_124_data_set_copy.dat", "r");
+    pointer2 = fopen("00082_21_124_data_set_copy.dat", "r");
 
     int count;
     printf("\nEnter the number of numbers you want to call = ");
@@ -34,7 +34,7 @@ int main()
     
 
     FILE *pointer3 = NULL;
-    pointer3 = fopen("83_21_124_Q2_output.dat", "w");
+    pointer3 = fopen("00083_21_124_Q2_output.dat", "w");
 
     float value[count];
     for (int i = 0; i < count; i++)
