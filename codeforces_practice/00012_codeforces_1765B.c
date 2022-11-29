@@ -16,7 +16,7 @@ int main()
         char word[length + 1];
 
         fflush(stdin);
-        scanf("%s", word);
+        gets(word);
 
         if (length % 3 == 0 || length % 3 == 1)
         {
