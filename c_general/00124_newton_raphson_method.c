@@ -16,7 +16,6 @@ int main()
         difference = fabs(x_values[i] - x_values[i-1]);
         if (difference < 0.000001)
         {
-            printf("1");
             printf("\nThe required root is %5.15lf", x_values[i]);
             break;
         }
