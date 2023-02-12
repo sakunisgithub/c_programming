@@ -22,33 +22,9 @@ int main()
         
     }
     
-    printf("the number of real numbers lying in [-1, 1] is %d", count);
+    printf("the number of real numbers lying in [-1, 1] is %d\n", count);
 
-
-    // float my_array[number_of_inputs];
-
-    // for (int i = 0; i < number_of_inputs; i++)
-    // {
-    //     printf("enter your number = "); 
-    //     scanf("%f", &my_array[i]);
-
-    //     if (my_array[i] >= -1 && my_array[i] <= 1)
-    //     {
-    //         count++;
-    //     }
-        
-    // }
-
-    // printf("the number of real numbers lying in [-1, 1] is %d\n", count);
-
-    // for (int i = 0; i < number_of_inputs; i++)
-    // {
-    //     if (my_array[i] >= -1 && my_array[i] <= 1)
-    //     {
-    //         printf("%f\t", my_array[i]);
-    //     }
-    // }
-        
+    printf("The ratio of real numbers is %d : %d \n", count, number_of_inputs);
 
     return 0;
 }
