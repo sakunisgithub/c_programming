@@ -24,7 +24,7 @@ int main()
     
     printf("the number of real numbers lying in [-1, 1] is %d\n", count);
 
-    printf("The ratio of real numbers is %d : %d \n", count, number_of_inputs);
+    printf("The proportion of real numbers is %f\n", (float)count/(float)number_of_inputs);
 
     return 0;
 }
