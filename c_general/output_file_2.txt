@@ -1,0 +1,12 @@
+
+ The initial matrix was :: 
+  2   -1    6  
+  7    2   -2  
+  4   -2   10  
+  6    1    1  
+
+ The new matrix is :: 
+  2   -1    6  
+  4   -2   10  
+  7    2   -2  
+  6    1    1  
